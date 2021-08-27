@@ -35,9 +35,9 @@ const WEEKDAYS_LONG = {
     'Sábado',
   ],
 };
- 
+
 export class CustomDatepicker extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.handleDayClick = this.handleDayClick.bind(this);
     this.state = {
@@ -45,17 +45,21 @@ export class CustomDatepicker extends React.Component {
     };
   }
 
+  componentDidMount() {
+    this.handleDayClick(new Date());
+  }
+
   handleDayClick(day) {
-    this.setState({ 
+    this.setState({
       selectedDay: day,
     });
     this.infoCallback(getPrioritySequence(moment(day)));
   }
-  
+
   infoCallback(sequence) {
     this.props.callbackFromParent(sequence);
   };
- 
+
   render() {
     return (
       <div>
