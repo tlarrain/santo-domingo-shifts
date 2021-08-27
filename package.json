@@ -1,15 +1,15 @@
 {
   "name": "santo-domingo-shifts",
   "homepage": "http://tlarrain.github.io/santo-domingo-shifts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "moment": "2.22.2",
-    "react": "16.5.2",
-    "react-datepicker": "1.6.0",
-    "react-day-picker": "7.2.4",
-    "react-dom": "16.5.2",
-    "react-scripts": "1.1.5",
+    "moment": "^2.29.1",
+    "react": "^16.14.0",
+    "react-datepicker": "^1.8.0",
+    "react-day-picker": "^7.4.10",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^1.1.5",
     "react-table": "^6.8.6"
   },
   "scripts": {

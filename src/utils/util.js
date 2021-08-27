@@ -61,12 +61,12 @@ function generateDateRanges(year) {
       comparison: '[]',
     },
     {
-      iniDate: `${year}-10-15`,
-      endDate: `${year+1}-01-03`,
+      iniDate: `${year}-10-16`,
+      endDate: `${year + 1}-01-03`,
       comparison: '[]',
     },
-  ]; 
-}; 
+  ];
+};
 
 function yearDateSequence(yearSequence, dateRange) {
   return (yearSequence + dateRange) % 6;
@@ -77,7 +77,7 @@ function getYearSequence(year) {
 }
 
 function checkFirstDaysOfYear(date) {
-  if (moment(date.format('YYYY-MM-DD')).isBetween(`${date.year()}-01-01`,`${date.year()}-01-03`, 'days', '[]')) {
+  if (moment(date.format('YYYY-MM-DD')).isBetween(`${date.year()}-01-01`, `${date.year()}-01-03`, 'days', '[]')) {
     return -1;
   }
   return 0;
@@ -86,7 +86,7 @@ function getDateRange(date) {
   const ranges = generateDateRanges(date.year() + checkFirstDaysOfYear(date));
   let i = 0;
   for (let range of ranges) {
-    if (moment(date.format('YYYY-MM-DD')).isBetween(range.iniDate, range.endDate, 'days', range.comparison)) { 
+    if (moment(date.format('YYYY-MM-DD')).isBetween(range.iniDate, range.endDate, 'days', range.comparison)) {
       break;
     }
     i++;
@@ -96,14 +96,14 @@ function getDateRange(date) {
 
 export function getPrioritySequence(date) {
   const selectedDate = moment(date);
-  var yesterday =  moment(date).subtract(1, 'days');
-  const tommorrow =  moment(date).add(1, 'days');
+  const yesterday = moment(date).subtract(1, 'days');
+  const tommorrow = moment(date).add(1, 'days');
   const threeDays = [yesterday, selectedDate, tommorrow];
   let tableData = [];
   for (let day of threeDays) {
     const dateRange = getDateRange(day);
     const yearSequence = getYearSequence(day.year() + checkFirstDaysOfYear(day));
-    let finalSequence = Object.assign({}, sequences[yearDateSequence(yearSequence, dateRange)]);
+    const finalSequence = Object.assign({}, sequences[yearDateSequence(yearSequence, dateRange)]);
     finalSequence['date'] = day.format('DD-MM-YYYY');
     tableData.push(finalSequence);
   }
