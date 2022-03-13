@@ -1,6 +1,6 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-	height: 100%;
+  height: 100%;
   margin: 20px;
 }
 
@@ -10,20 +10,26 @@ table.greyGridTable {
   text-align: center;
   border-collapse: collapse;
 }
-table.greyGridTable td, table.greyGridTable th {
+
+table.greyGridTable td,
+table.greyGridTable th {
   border: 1px solid #FFFFFF;
   padding: 3px 4px;
 }
+
 table.greyGridTable tbody td {
   font-size: 13px;
 }
+
 table.greyGridTable td:nth-child(even) {
   background: #EBEBEB;
 }
+
 table.greyGridTable thead {
   background: #FFFFFF;
   border-bottom: 4px solid #333333;
 }
+
 table.greyGridTable thead th {
   font-size: 15px;
   font-weight: bold;
@@ -31,6 +37,7 @@ table.greyGridTable thead th {
   text-align: center;
   border-left: 2px solid #333333;
 }
+
 table.greyGridTable thead th:first-child {
   border-left: none;
 }
@@ -41,6 +48,7 @@ table.greyGridTable tfoot {
   color: #333333;
   border-top: 4px solid #333333;
 }
+
 table.greyGridTable tfoot td {
   font-size: 14px;
 }
@@ -65,4 +73,30 @@ table.greyGridTable tfoot td {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.centered {
+  margin: auto;
+  margin-top: 10px;
+  width: 14rem;
+  text-align: center;
+}
+
+.rules-link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.rule {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 19rem;
+}
+
+.rules-title {
+  padding-bottom: 15px;
+}
+
+ol {
+  padding-left: 0;
 }
