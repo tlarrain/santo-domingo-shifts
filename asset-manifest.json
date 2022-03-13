@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/santo-domingo-shifts/static/css/main.f0f68566.chunk.css",
-    "main.js": "/santo-domingo-shifts/static/js/main.bd6c2432.chunk.js",
-    "main.js.map": "/santo-domingo-shifts/static/js/main.bd6c2432.chunk.js.map",
+    "main.css": "/santo-domingo-shifts/static/css/main.92ca0305.chunk.css",
+    "main.js": "/santo-domingo-shifts/static/js/main.3ddc7cd6.chunk.js",
+    "main.js.map": "/santo-domingo-shifts/static/js/main.3ddc7cd6.chunk.js.map",
     "runtime-main.js": "/santo-domingo-shifts/static/js/runtime-main.e84f23ec.js",
     "runtime-main.js.map": "/santo-domingo-shifts/static/js/runtime-main.e84f23ec.js.map",
     "static/css/2.0440f8c5.chunk.css": "/santo-domingo-shifts/static/css/2.0440f8c5.chunk.css",
-    "static/js/2.5283b52d.chunk.js": "/santo-domingo-shifts/static/js/2.5283b52d.chunk.js",
-    "static/js/2.5283b52d.chunk.js.map": "/santo-domingo-shifts/static/js/2.5283b52d.chunk.js.map",
+    "static/js/2.095e49a1.chunk.js": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js",
+    "static/js/2.095e49a1.chunk.js.map": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js.map",
     "index.html": "/santo-domingo-shifts/index.html",
     "static/css/2.0440f8c5.chunk.css.map": "/santo-domingo-shifts/static/css/2.0440f8c5.chunk.css.map",
-    "static/css/main.f0f68566.chunk.css.map": "/santo-domingo-shifts/static/css/main.f0f68566.chunk.css.map",
-    "static/js/2.5283b52d.chunk.js.LICENSE.txt": "/santo-domingo-shifts/static/js/2.5283b52d.chunk.js.LICENSE.txt"
+    "static/css/main.92ca0305.chunk.css.map": "/santo-domingo-shifts/static/css/main.92ca0305.chunk.css.map",
+    "static/js/2.095e49a1.chunk.js.LICENSE.txt": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e84f23ec.js",
     "static/css/2.0440f8c5.chunk.css",
-    "static/js/2.5283b52d.chunk.js",
-    "static/css/main.f0f68566.chunk.css",
-    "static/js/main.bd6c2432.chunk.js"
+    "static/js/2.095e49a1.chunk.js",
+    "static/css/main.92ca0305.chunk.css",
+    "static/js/main.3ddc7cd6.chunk.js"
   ]
 }
