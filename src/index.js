@@ -11,7 +11,7 @@ import {
 import { Rules } from './components/rules';
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/santo-domingo-shifts'>
     <Routes>
       <Route path="/" element={<Page />} />
       <Route path="/rules" element={<Rules />} />
