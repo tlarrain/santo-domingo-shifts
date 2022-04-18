@@ -1,8 +1,9 @@
 import React from 'react';
-import DayPicker from 'react-day-picker';
-import 'react-day-picker/lib/style.css';
+import { DayPicker } from 'react-day-picker';
+import 'react-day-picker/dist/style.css';
 import moment from 'moment';
 import { getPrioritySequence } from '../utils/util';
+import { isSameMonth } from 'date-fns';
 
 const WEEKDAYS_SHORT = {
   es: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
@@ -36,14 +37,28 @@ const WEEKDAYS_LONG = {
   ],
 };
 
+const today = new Date();
+
 export class CustomDatepicker extends React.Component {
+  footer = null;
   constructor(props) {
     super(props);
+
     this.handleDayClick = this.handleDayClick.bind(this);
     this.state = {
-      selectedDay: undefined,
+      month: today,
+      selectedDay: today,
     };
+
+    this.footer = (
+      <div className='todayBtn'
+        onClick={() => this.handleDayClick(today)}
+      >
+        Volver al día de hoy
+      </div>
+    );
   }
+
 
   componentDidMount() {
     this.handleDayClick(new Date());
@@ -52,6 +67,7 @@ export class CustomDatepicker extends React.Component {
   handleDayClick(day) {
     this.setState({
       selectedDay: day,
+      month: day,
     });
     this.infoCallback(getPrioritySequence(moment(day)));
   }
@@ -69,12 +85,13 @@ export class CustomDatepicker extends React.Component {
           weekdaysLong={WEEKDAYS_LONG['es']}
           weekdaysShort={WEEKDAYS_SHORT['es']}
           firstDayOfWeek={1}
+          month={this.state.month}
           onDayClick={this.handleDayClick}
-          selectedDays={this.state.selectedDay}
+          selected={this.state.selectedDay}
           callbackFromParent={this.infoCallback}
-          todayButton="Volver al día de hoy"
           onTodayButtonClick={this.handleDayClick}
           onMonthChange={this.handleDayClick}
+          footer={this.footer}
         />
       </div>
     );
