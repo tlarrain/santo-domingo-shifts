@@ -74,6 +74,7 @@ export class CustomDatepicker extends React.Component {
           callbackFromParent={this.infoCallback}
           todayButton="Volver al día de hoy"
           onTodayButtonClick={this.handleDayClick}
+          onMonthChange={this.handleDayClick}
         />
       </div>
     );
