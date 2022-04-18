@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/santo-domingo-shifts/static/css/main.92ca0305.chunk.css",
-    "main.js": "/santo-domingo-shifts/static/js/main.865b6221.chunk.js",
-    "main.js.map": "/santo-domingo-shifts/static/js/main.865b6221.chunk.js.map",
-    "runtime-main.js": "/santo-domingo-shifts/static/js/runtime-main.e84f23ec.js",
-    "runtime-main.js.map": "/santo-domingo-shifts/static/js/runtime-main.e84f23ec.js.map",
-    "static/css/2.0440f8c5.chunk.css": "/santo-domingo-shifts/static/css/2.0440f8c5.chunk.css",
-    "static/js/2.095e49a1.chunk.js": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js",
-    "static/js/2.095e49a1.chunk.js.map": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js.map",
+    "main.css": "/santo-domingo-shifts/static/css/main.09ab8167.css",
+    "main.js": "/santo-domingo-shifts/static/js/main.4177170a.js",
     "index.html": "/santo-domingo-shifts/index.html",
-    "static/css/2.0440f8c5.chunk.css.map": "/santo-domingo-shifts/static/css/2.0440f8c5.chunk.css.map",
-    "static/css/main.92ca0305.chunk.css.map": "/santo-domingo-shifts/static/css/main.92ca0305.chunk.css.map",
-    "static/js/2.095e49a1.chunk.js.LICENSE.txt": "/santo-domingo-shifts/static/js/2.095e49a1.chunk.js.LICENSE.txt"
+    "main.09ab8167.css.map": "/santo-domingo-shifts/static/css/main.09ab8167.css.map",
+    "main.4177170a.js.map": "/santo-domingo-shifts/static/js/main.4177170a.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e84f23ec.js",
-    "static/css/2.0440f8c5.chunk.css",
-    "static/js/2.095e49a1.chunk.js",
-    "static/css/main.92ca0305.chunk.css",
-    "static/js/main.865b6221.chunk.js"
+    "static/css/main.09ab8167.css",
+    "static/js/main.4177170a.js"
   ]
 }
