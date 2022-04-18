@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/santo-domingo-shifts/static/css/main.09ab8167.css",
-    "main.js": "/santo-domingo-shifts/static/js/main.4177170a.js",
+    "main.css": "/santo-domingo-shifts/static/css/main.1f9245e6.css",
+    "main.js": "/santo-domingo-shifts/static/js/main.174502d3.js",
     "index.html": "/santo-domingo-shifts/index.html",
-    "main.09ab8167.css.map": "/santo-domingo-shifts/static/css/main.09ab8167.css.map",
-    "main.4177170a.js.map": "/santo-domingo-shifts/static/js/main.4177170a.js.map"
+    "main.1f9245e6.css.map": "/santo-domingo-shifts/static/css/main.1f9245e6.css.map",
+    "main.174502d3.js.map": "/santo-domingo-shifts/static/js/main.174502d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ab8167.css",
-    "static/js/main.4177170a.js"
+    "static/css/main.1f9245e6.css",
+    "static/js/main.174502d3.js"
   ]
 }
