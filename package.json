@@ -1,7 +1,7 @@
 {
   "name": "santo-domingo-shifts",
   "homepage": "http://tlarrain.github.io/santo-domingo-shifts",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "moment": "^2.29.1",

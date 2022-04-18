@@ -20,6 +20,7 @@ export class Rules extends React.Component {
     'La freídora o se deja limpia sin aceite o se avisa para q la Isabel la limpie.',
     'El refrigerador de la bodega debe quedar desenchufado. El de la cocina no, pero vacío.',
     'La alarma tiene que quedar conectada, y antes hay que revisar que las ventanas de toda la casa estén BIEN cerradas porque se conecta aun cuando estén aparentemente cerradas.',
+    'La basura hay q dejarla en bolsas cerradas no el tarro lleno con la bolsa abierta. Asi la Isabel puede llevarla hasta afuera cuando vaya.',
   ]
 
   render() {
