@@ -10,7 +10,7 @@
     "react-datepicker": "^1.8.0",
     "react-day-picker": "^8.0.0",
     "react-dom": "^16.14.0",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.30.3",
     "react-scripts": "^5.0.0",
     "react-table": "^6.8.6"
   },
